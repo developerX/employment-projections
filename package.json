@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prod": "netlify-lambda build functions"
+    "prod": "netlify-lambda build functions",
+    "serve:lambda": "netlify-lambda serve functions"
   },
   "author": "",
   "license": "ISC",
